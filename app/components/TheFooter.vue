@@ -9,7 +9,7 @@
             <span class="text-xl font-display font-black text-white uppercase tracking-tight">ÜTS ENTEGRE</span>
           </NuxtLink>
           <p class="text-primary-400 font-medium leading-relaxed">
-            Sağlık sektörü için geliştirilmiş güvenilir bildirim ve entegrasyon merkezi.
+            Medikal sektörü için geliştirilmiş güvenilir bildirim ve entegrasyon merkezi.
           </p>
         </div>
 
@@ -18,9 +18,11 @@
           <h6 class="text-sm font-black uppercase tracking-widest text-accent-500 mb-6">KURUMSAL</h6>
           <ul class="space-y-4">
             <li><NuxtLink to="/hakkimizda" class="text-primary-300 hover:text-white transition-colors">Hakkımızda</NuxtLink></li>
+             <!-- 
             <li><a href="#" class="text-primary-300 hover:text-white transition-colors">KVKK Aydınlatma Metni</a></li>
             <li><a href="#" class="text-primary-300 hover:text-white transition-colors">Kullanım Şartları</a></li>
             <li><a href="#" class="text-primary-300 hover:text-white transition-colors">İş Ortakları</a></li>
+         -->
           </ul>
         </div>
 
@@ -29,9 +31,10 @@
           <h6 class="text-sm font-black uppercase tracking-widest text-accent-500 mb-6">ÜRÜN</h6>
           <ul class="space-y-4">
             <li><NuxtLink to="/ozellikler" class="text-primary-300 hover:text-white transition-colors">Özellikler</NuxtLink></li>
+            <!-- 
             <li><a href="#" class="text-primary-300 hover:text-white transition-colors">ERP Entegrasyonları</a></li>
-            <li><a href="#" class="text-primary-300 hover:text-white transition-colors">API Dokümantasyonu</a></li>
-            <li><a href="#" class="text-primary-300 hover:text-white transition-colors">Fiyatlandırma</a></li>
+             <li><a href="#" class="text-primary-300 hover:text-white transition-colors">Fiyatlandırma</a></li>
+         -->
           </ul>
         </div>
 
@@ -40,12 +43,16 @@
           <h6 class="text-sm font-black uppercase tracking-widest text-accent-500 mb-6">İLETİŞİM</h6>
           <ul class="space-y-4">
             <li class="flex items-center space-x-3 text-primary-300">
-              <svg class="w-5 h-5 text-accent-500" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
-              <span>destek@utsentegre.com</span>
+               <a href="mailto:iletisim@utsentegre.com?subject=Bilgi%20%26%20Destek%20Almak%20İstiyorum" class="flex items-center space-x-3 hover:text-white transition-colors">
+                  <svg class="w-5 h-5 text-accent-500" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                  <span>iletisim@utsentegre.com</span>
+               </a>
             </li>
             <li class="flex items-center space-x-3 text-primary-300">
-              <svg class="w-5 h-5 text-accent-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
-              <span>İzmir, Türkiye</span>
+               <NuxtLink to="/iletisim" class="flex items-center space-x-3 hover:text-white transition-colors">
+                  <svg class="w-5 h-5 text-accent-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+                  <span>İzmir, Türkiye</span>
+               </NuxtLink>
             </li>
           </ul>
         </div>
@@ -54,9 +61,7 @@
       <div class="pt-8 border-t border-primary-800 flex flex-col md:flex-row justify-between items-center text-sm text-primary-500 font-medium">
         <p>© 2026 ÜTS Entegre. Tüm hakları saklıdır.</p>
         <div class="flex space-x-6 mt-4 md:mt-0">
-          <a href="#" class="hover:text-white">LinkedIn</a>
-          <a href="#" class="hover:text-white">X (Twitter)</a>
-          <a href="#" class="hover:text-white">YouTube</a>
+          <span class="text-primary-600">Powered by <a href="https://avtyazilim.com" target="_blank" class="text-accent-600 hover:text-white transition-colors font-bold">AVT Yazılım</a></span>
         </div>
       </div>
     </div>

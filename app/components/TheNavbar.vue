@@ -20,15 +20,15 @@
         <NuxtLink to="/" exact-active-class="active-link" class="text-sm font-semibold text-primary-600 hover:text-accent-600 transition-all relative group py-2">Ana Sayfa</NuxtLink>
         <NuxtLink to="/ozellikler" exact-active-class="active-link" class="text-sm font-semibold text-primary-600 hover:text-accent-600 transition-all relative group py-2">Özellikler</NuxtLink>
         <NuxtLink to="/hakkimizda" exact-active-class="active-link" class="text-sm font-semibold text-primary-600 hover:text-accent-600 transition-all relative group py-2">Hakkımızda</NuxtLink>
-        <NuxtLink to="/nasil-calisir" exact-active-class="active-link" class="text-sm font-semibold text-primary-600 hover:text-accent-600 transition-all relative group py-2">Nasıl Çalışır?</NuxtLink>
+        <!-- <NuxtLink to="/nasil-calisir" exact-active-class="active-link" class="text-sm font-semibold text-primary-600 hover:text-accent-600 transition-all relative group py-2">Nasıl Çalışır?</NuxtLink> -->
         <NuxtLink to="/iletisim" exact-active-class="active-link" class="text-sm font-semibold text-primary-600 hover:text-accent-600 transition-all relative group py-2">İletişim</NuxtLink>
       </div>
 
       <!-- CTA -->
       <div class="flex items-center space-x-4">
-        <button class="px-6 py-2.5 bg-accent-600 hover:bg-accent-700 text-white rounded-full font-bold text-sm shadow-xl shadow-accent-600/10 transition-all hover:-translate-y-0.5 active:translate-y-0">
-          Hemen Başla
-        </button>
+        <a href="mailto:iletisim@utsentegre.com?subject=Bilgi%20%26%20Destek%20Almak%20İstiyorum" class="px-6 py-2.5 bg-accent-600 hover:bg-accent-700 text-white rounded-full font-bold text-sm shadow-xl shadow-accent-600/10 transition-all hover:-translate-y-0.5 active:translate-y-0">
+          Teklif Al
+        </a>
       </div>
     </div>
   </nav>

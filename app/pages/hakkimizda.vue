@@ -19,24 +19,14 @@
               Hikayemiz
             </div>
             <h1 class="text-4xl lg:text-5xl font-display font-black text-white mb-6 tracking-tight leading-tight">
-              Geleceğin Sağlık <br/> Teknolojilerini <br/>
-              <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent-400 to-accent-600 italic">Bugünden İnşa Ediyoruz</span>
+              Medikal Bildirim <br/> Süreçlerinde <br/>
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent-400 to-accent-600 italic">Güvenilir Çözüm Ortağınız</span>
             </h1>
             <p class="text-base text-primary-200 font-medium leading-relaxed max-w-lg mx-auto lg:mx-0 mb-8">
-              ÜTS Entegre olarak ISO/IEC 20000-1, 27701 ve 27001 sertifikalarımız ile sektördeki dijital dönüşüm süreçlerinize liderlik ediyoruz. İhtiyaç analizi, çözüm tasarımı, kurulum & eğitim ve kesintisiz bakım & destek ile yanınızdayız.
+              ÜTS Entegre olarak sektördeki dijital dönüşüm süreçlerinize liderlik ediyoruz. İhtiyaç analizi, çözüm tasarımı, kurulum & eğitim ve kesintisiz bakım & destek ile yanınızdayız.
             </p>
             
-            <div class="flex items-center justify-center lg:justify-start gap-8 border-t border-white/10 pt-8 mt-auto">
-              <div>
-                <div class="text-3xl font-black text-white mb-1">500+</div>
-                <div class="text-[10px] text-primary-400 uppercase tracking-widest font-bold">AKTİF KURUM</div>
-              </div>
-              <div class="w-px h-10 bg-white/10"></div>
-              <div>
-                <div class="text-3xl font-black text-white mb-1">10M+</div>
-                <div class="text-[10px] text-primary-400 uppercase tracking-widest font-bold">AYLIK İŞLEM</div>
-              </div>
-            </div>
+
           </div>
           
           <!-- Visual Context: Abstract Composition / UI Simulation -->
@@ -63,13 +53,11 @@
                    </div>
                    <div class="space-y-3">
                       <div class="bg-white/5 p-3 rounded-xl border border-white/10 text-left">
-                         <div class="text-[9px] text-accent-400 font-bold uppercase tracking-wider mb-1">GÜNLÜK İŞLEM HACMİ</div>
-                         <div class="text-white font-mono font-bold text-lg">342,850+</div>
-                      </div>
+                         <div class="text-accent-400 font-bold uppercase tracking-wider mb-1">DİJİTAL DÖNÜŞÜM</div>
+                       </div>
                       <div class="bg-white/5 p-3 rounded-xl border border-white/10 text-left">
-                         <div class="text-[9px] text-blue-400 font-bold uppercase tracking-wider mb-1">BAŞARILI BİLDİRİM</div>
-                         <div class="text-white font-mono font-bold text-lg">%99.99</div>
-                      </div>
+                         <div class="text-blue-400 font-bold uppercase tracking-wider mb-1">GÜNCEL SİSTEM</div>
+                       </div>
                    </div>
                 </div>
               </div>
@@ -80,7 +68,6 @@
                   <div class="w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center">
                     <svg class="w-3 h-3 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
                   </div>
-                  <div class="text-white text-[10px] font-bold uppercase tracking-wider">TSE ONAYLI</div>
                 </div>
               </div>
               
@@ -89,8 +76,7 @@
                   <div class="w-6 h-6 rounded-full bg-blue-500/20 flex items-center justify-center">
                     <svg class="w-3 h-3 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                   </div>
-                  <div class="text-white text-[10px] font-bold uppercase tracking-wider">%100 UYUM</div>
-                </div>
+                 </div>
               </div>
             </div>
           </div>
@@ -111,8 +97,7 @@
                 <div class="absolute bottom-6 left-6 right-6 bg-white/80 backdrop-blur-sm p-4 rounded-xl border border-white shadow-sm">
                    <div class="text-center">
                       <div class="font-black text-primary-900 text-lg">ÜTSENTEGRE</div>
-                      <div class="text-[9px] uppercase tracking-widest text-primary-500 font-bold">SAĞLIK & TEKNOLOJİ ÇÖZÜMLERİ</div>
-                   </div>
+                    </div>
                 </div>
              </div>
           </div>
@@ -121,16 +106,12 @@
             <h2 class="text-3xl lg:text-4xl font-display font-black text-primary-900 leading-tight">Biz Kimiz?</h2>
             <div class="w-12 h-1 bg-accent-600 rounded-full"></div>
             <p class="text-base text-primary-600 leading-relaxed font-medium">
-              Teknoloji tutkunu, deneyimli yazılım mühendisleri ve sektör uzmanlarından oluşan dinamik bir ekibiz. Amacımız, sağlık sektöründeki firmaların süreçlerini kolaylaştırmak.
+              Teknoloji tutkunu, deneyimli yazılım mühendisleri ve sektör uzmanlarından oluşan dinamik bir ekibiz. Amacımız, medikal sektördeki firmaların süreçlerini kolaylaştırmak.
             </p>
             <p class="text-base text-primary-600 leading-relaxed font-medium">
-              <strong class="text-primary-900 font-bold">ÜTS, Ecza Deposu, UDI/Karekod ve e-Fatura</strong> çözümleri ile entegrasyon süreçlerinizi ISO standartlarında, güvenli ve problemsiz şekilde yönetmeniz için hizmet veriyoruz.
+              Sektördeki dijital dönüşüm süreçlerinize liderlik ediyoruz. İhtiyaç analizi, çözüm tasarımı, kurulum & eğitim ve kesintisiz bakım & destek ile yanınızdayız.
             </p>
-            <div class="pt-4 flex flex-wrap gap-3">
-               <span class="px-4 py-2 bg-primary-50 text-primary-800 rounded-lg text-xs font-bold border border-primary-100">B2B SaaS</span>
-               <span class="px-4 py-2 bg-primary-50 text-primary-800 rounded-lg text-xs font-bold border border-primary-100">Regülasyon Teknolojileri</span>
-               <span class="px-4 py-2 bg-primary-50 text-primary-800 rounded-lg text-xs font-bold border border-primary-100">Güvenli Veri İletimi</span>
-            </div>
+          
           </div>
         </div>
       </div>
@@ -141,7 +122,7 @@
       <!-- Minimal background -->
       <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[300px] bg-accent-600/5 blur-[120px] pointer-events-none"></div>
       
-      <div class="container mx-auto px-8 md:px-16 lg:px-24 xl:px-40 relative z-10 max-w-5xl">
+      <div class="container mx-auto px-8 md:px-16 lg:px-24 xl:px-40 relative z-10 ">
          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12">
             <!-- Mission Card -->
             <div class="p-10 lg:p-12 bg-white/5 backdrop-blur-md rounded-[2.5rem] border border-white/5 hover:bg-white/10 transition-colors group" v-motion="{ initial: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }">
@@ -161,7 +142,7 @@
                </div>
                <h3 class="text-2xl font-display font-black mb-4 uppercase tracking-tight">VİZYONUMUZ</h3>
                <p class="text-primary-300 text-sm font-medium leading-relaxed">
-                  Türkiye'nin ve bölgenin en güvenilir sağlık verisi entegrasyon platformu olarak, ulusal ve küresel ölçekli sektör liderlerinin kalıcı tercihi haline gelmek ve sektör standartlarını belirlemek.
+                  Türkiye'nin ve bölgenin en güvenilir medikal bildirim entegrasyon platformu olarak, sektör liderlerinin kalıcı tercihi haline gelmek ve sektör standartlarını belirlemek.
                </p>
             </div>
          </div>
@@ -170,9 +151,9 @@
     
     <!-- Values -->
     <section class="py-20 bg-slate-50 border-b border-primary-100">
-       <div class="container mx-auto px-8 md:px-16 lg:px-24 xl:px-40 text-center">
+       <div class="container mx-20 text-center">
           <h2 class="text-2xl lg:text-3xl font-display font-black text-primary-900 mb-12 uppercase">TEMEL DEĞERLERİMİZ</h2>
-          <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-7xl mx-auto">
              <div class="p-6 bg-white rounded-2xl shadow-sm border border-primary-50 hover:shadow-md transition-shadow">
                 <div class="w-12 h-12 mx-auto rounded-xl bg-accent-50 flex items-center justify-center text-accent-600 mb-4">
                   <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>

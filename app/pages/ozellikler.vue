@@ -21,7 +21,7 @@
               Modüller
             </h1>
             <p class="text-lg text-primary-200 font-medium leading-relaxed max-w-xl mx-auto lg:mx-0">
-              Ürün Takip Sistemi (ÜTS), e-Fatura ve Ecza Deposu otomasyonu için ÜTS Entegre yazılım çözümleri.
+               ÜTS Entegre ile e-imza & e-devlet ile giriş yapmanıza gerek kalmadan kullanıcılarınızı oluşturup bildirim yapabilirsiniz.
             </p>
           </div>
           
@@ -130,15 +130,15 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <div v-motion="{ initial: { opacity: 0, x: -30 }, visible: { opacity: 1, x: 0 } }">
             <h3 class="text-accent-500 font-bold tracking-widest uppercase text-[10px] mb-4">GÜVEN VE DESTEK</h3>
-            <h4 class="text-4xl font-display font-black text-white mb-8 leading-tight">Yasal Mevzuatlara <br/> <span class="text-accent-400">Tam Uyumluluk</span></h4>
+            <h4 class="text-4xl font-display font-black text-white mb-8 leading-tight">Süreç Yönetimine <br/> <span class="text-accent-400">Tam Uyum</span></h4>
             <div class="space-y-6">
               <div class="flex items-start gap-6 p-8 rounded-[2rem] bg-white/[0.03] border border-white/10 backdrop-blur-md hover:bg-white/[0.06] hover:border-white/20 transition-all duration-500 group">
                 <div class="w-12 h-12 rounded-2xl bg-accent-600/20 flex items-center justify-center shrink-0 border border-accent-500/30 group-hover:scale-110 transition-transform duration-500">
                   <svg class="w-6 h-6 text-accent-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                 </div>
                 <div>
-                  <h5 class="text-white text-lg font-bold mb-1">Mevzuat Yönetimi</h5>
-                  <p class="text-primary-400 font-medium leading-relaxed">Sağlık Bakanlığı Tarafından Yayınlanan Tüm Güncel Yönergelere Eksiksiz Uyum.</p>
+                  <h5 class="text-white text-lg font-bold mb-1">Sistem Güncelliği</h5>
+                  <p class="text-primary-400 font-medium leading-relaxed">Bildirim süreçlerinizi kesintisiz ve hızlı bir şekilde yönetmeniz için geliştirilmiş altyapı.</p>
                 </div>
               </div>
               <div class="flex items-start gap-6 p-8 rounded-[2rem] bg-white/[0.03] border border-white/10 backdrop-blur-md hover:bg-white/[0.06] hover:border-white/20 transition-all duration-500 group">
@@ -165,10 +165,9 @@
                      <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                   </div>
                   <div class="text-center">
-                     <span class="block text-white font-black text-2xl mb-1 tracking-tight uppercase">MEVZUAT ONAYLI</span>
+                     <span class="block text-white font-black text-2xl mb-1 tracking-tight uppercase">SİSTEM AKTİF</span>
                      <div class="h-1 w-20 bg-accent-600 mx-auto rounded-full mb-4"></div>
-                     <p class="text-primary-300 text-xs font-bold uppercase tracking-[0.2em] opacity-60">SİSTEM 100% UYUMLU</p>
-                  </div>
+                   </div>
                </div>
 
                <!-- Floating Status Nodes -->
@@ -198,12 +197,11 @@
       <div class="container mx-auto px-8 md:px-16 lg:px-24 xl:px-40" v-motion="{ initial: { opacity: 0, scale: 0.98 }, visible: { opacity: 1, scale: 1 } }">
         <h2 class="text-4xl lg:text-6xl font-display font-black text-white mb-10 tracking-tight">Sürecinizi Bugün <br/> <span class="text-accent-500 italic">Otomatize Edin</span></h2>
         <NuxtLink to="/" class="group px-14 py-6 bg-accent-600 hover:bg-accent-700 text-white rounded-2xl font-black text-xl transition-all shadow-2xl shadow-accent-600/40 hover:-translate-y-2 inline-flex items-center gap-6">
-          <span>ÜCRETSİZ BAŞLAYIN</span>
+          <span>TEKLİF VE BİLGİ ALIN</span>
           <div class="bg-white/20 p-2 rounded-xl transition-transform group-hover:translate-x-3">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
           </div>
         </NuxtLink>
-        <p class="mt-8 text-primary-400 font-bold text-sm uppercase tracking-widest">KREDİ KARTI GEREKTİRMEZ • 14 GÜN DENEME</p>
       </div>
     </section>
   </div>
@@ -211,18 +209,15 @@
 
 <script setup>
 const features = [
-  { title: 'Tek Tıkla Kabul', desc: 'Ticari yazılımdan gelen faturalarınızı beklemeden tek tıklamayla ÜTS\'ye aktarın.', label: 'Sertifikalı Güvence', icon: 'M5 13l4 4L19 7' },
+  { title: 'Tek Tıkla Bildirim', desc: 'Fatura/irsaliye\'yi muhasebe programınızdan oluşturup tek tıklamayla ÜTS\'ye aktarın.', label: 'Tam Otomasyon', icon: 'M5 13l4 4L19 7' },
   { title: 'Zaman Hızı', desc: 'Süreçlerinizi yavaşlatan manuel işlemlerden kurtulun; maksimum hızda yönetin.', label: 'Tam Otomasyon', icon: 'M13 10V3L4 14h7v7l9-11h-7z' },
-  { title: 'ERP Uyumu', desc: 'Mevcut kullandığınız ERP/Muhasebe yazılımınıza tam entegre çalıştırın.', label: 'Geniş Uyumluluk', icon: 'M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4' },
-  { title: 'Lot/Seri Takibi', desc: 'Ürünlere ait detaylı lot/seri izlenebilirliği ile tam kontrol sağlayın.', label: 'Detaylı İzleme', icon: 'M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15' },
-  { title: 'Stok Yönetimi', desc: 'Depolarınızdaki stokları lot ve seri bazında yüksek doğrulukla takip edin.', label: 'Envanter Kontrolü', icon: 'M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10' },
-  { title: 'Excel Desteği', desc: 'Toplu bildirimleri Excel ile içe aktarabilir, raporları Excel olarak indirebilirsiniz.', label: 'Toplu İşlem', icon: 'M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z' },
-  { title: 'Raporlama', desc: 'İş süreçlerinizi ve detaylı işlem geçmişini şeffaf raporlarla görüntüleyin.', label: 'İş Analitiği', icon: 'M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z' },
-  { title: 'İhale Yönetimi', desc: 'Üstlendiğiniz ihaleleri ve sevk durumlarını tek ekrandan yönetin.', label: 'Sevkiyat Planlama', icon: 'M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z' },
-  { title: 'Karekod Tasarım', desc: 'Bakanlık yönergelerine uygun barkod ile karekod tasarlayıp hızlıca yazdırın.', label: 'Endüstriyel Baskı', icon: 'M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm14 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z' },
-  { title: 'UDI Uyumu', desc: 'Uluslararası UDI kurallarına eksiksiz uyumlu altyapı ile regülasyonlara hazırlanın.', label: 'Küresel Standart', icon: 'M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9' },
-  { title: 'Çoklu Depo', desc: 'Farklı lokasyonlardaki depolarınızı tanımlayarak stok transferlerini yönetin.', label: 'Merkezi Yönetim', icon: 'M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4' },
-  { title: 'Hızlı Sorgulama', desc: 'Tekil ürün geçmişi ve askıdaki cihazlarınızı anında tespit edin.', label: 'Anlık Analiz', icon: 'M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z' }
+  { title: 'ERP Uyumu', desc: 'Bildirim (üretim,ithalat,ihracat,verme,alma..) süreçlerinizi kullandığınız ERP/Muhasebe sistemleri ile senkronize edebilirsiniz.', label: 'Geniş Uyumluluk', icon: 'M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4' },
+  { title: 'Özel Raporlama', desc: 'İş süreçlerinizi ve detaylı işlem geçmişini özelleştirilmiş raporlarla görüntüleyin.', label: 'İş Analitiği', icon: 'M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z' },
+  { title: 'Kullanıcı Takibi', desc: 'Hangi kullanıcının hangi bildirimi ne zaman yaptığını kolayca görebilirsiniz.', label: 'Denetim', icon: 'M15 12a3 3 0 11-6 0 3 3 0 016 0z' },
+  { title: 'Kullanıcı Yetkisi', desc: 'Kullanıcılarınızın hangi işlemleri yapabileceğini siz yönetin.', label: 'Güvenlik', icon: 'M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z' },
+  { title: 'Hızlı Sorgulama', desc: 'Tekil ürün geçmişi ve askıdaki cihazlarınızı anında tespit edin.', label: 'Anlık Analiz', icon: 'M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z' },
+  { title: 'Excel Desteği', desc: 'Raporları ve bildirimleri Excel formatında kolayca indirebilirsiniz.', label: 'Veri Aktarımı', icon: 'M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z' },
+  { title: 'Kesintisiz Destek', desc: 'Teknik ekibimiz her türlü sorunuzda ve eğitim ihtiyacınızda yanınızda.', label: '7/24 Destek', icon: 'M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z' }
 ]
 </script>
 
