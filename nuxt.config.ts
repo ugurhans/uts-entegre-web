@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+  ssr: true,
   srcDir: 'app',
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', '@vueuse/motion/nuxt'],

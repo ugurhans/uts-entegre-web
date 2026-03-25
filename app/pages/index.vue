@@ -140,8 +140,8 @@
 
       <div class="container mx-auto px-8 md:px-16 lg:px-24 relative z-10">
         <div class="text-center mb-20">
-          <h2 class="text-accent-600 font-black tracking-[0.2em] uppercase text-[12px] mb-4" v-motion="{ initial: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0, transition: { duration: 600 } } }">GÜVENE DAYALI İŞ BİRLİKLERİMİZ</h2>
-          <h3 class="text-3xl lg:text-4xl font-display font-black text-primary-900" v-motion="{ initial: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 800, delay: 100 } } }">Sektörün Lider Çözüm Ortakları & Entegrasyonlar</h3>
+          <h2 class="text-accent-600 font-black tracking-[0.2em] uppercase text-[12px] mb-4" v-motion="{ initial: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0, transition: { duration: 600 } } }">Muhasebe</h2>
+          <h3 class="text-3xl lg:text-4xl font-display font-black text-primary-900" v-motion="{ initial: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 800, delay: 100 } } }">Entegrasyonlarımız</h3>
         </div>
         
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
