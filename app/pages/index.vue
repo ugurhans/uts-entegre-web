@@ -117,6 +117,49 @@
           </div>
         </div>
       </div>
+            <!-- Scroll Down Indicator (Native Anchor for 100% reliability) -->
+      <a href="#partners" class="absolute bottom-4 inset-x-0 flex flex-col items-center gap-3 cursor-pointer z-50 group animate-bounce no-underline"
+         style="animation-duration: 2s">
+        <span class="text-[9px] font-black text-primary-400 uppercase tracking-[0.4em] group-hover:text-accent-600 transition-all duration-300">Kaydır, Keşfet</span>
+        <div class="relative">
+          <div class="w-8 h-14 rounded-full border-2 border-primary-200 flex items-start justify-center p-2 group-hover:border-accent-600 transition-colors overflow-hidden">
+            <div class="w-1.5 h-3 bg-accent-600 rounded-full animate-scroll-dot"></div>
+          </div>
+          <!-- Decorative Ripple Effect -->
+          <div class="absolute inset-0 w-8 h-14 rounded-full border border-accent-600 animate-ping opacity-20 group-hover:opacity-40"></div>
+        </div>
+      </a>
+    </section>
+
+    <!-- PARTNERS SECTION (MODERN GRID) -->
+    <section id="partners" class="pt-20 pb-24 bg-white border-y border-primary-50 relative overflow-hidden">
+      <!-- Subtle Decorative Background -->
+      <div class="absolute inset-0 opacity-[0.05] pointer-events-none">
+        <div class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(#475569_1px,transparent_1px)] [background-size:48px_48px]"></div>
+      </div>
+
+      <div class="container mx-auto px-8 md:px-16 lg:px-24 relative z-10">
+        <div class="text-center mb-20">
+          <h2 class="text-accent-600 font-black tracking-[0.2em] uppercase text-[12px] mb-4" v-motion="{ initial: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0, transition: { duration: 600 } } }">GÜVENE DAYALI İŞ BİRLİKLERİMİZ</h2>
+          <h3 class="text-3xl lg:text-4xl font-display font-black text-primary-900" v-motion="{ initial: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 800, delay: 100 } } }">Sektörün Lider Çözüm Ortakları & Entegrasyonlar</h3>
+        </div>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
+          <div v-for="i in 8" :key="'partner-' + i" 
+               class="group relative bg-white rounded-3xl p-8 h-48 border border-primary-50 shadow-sm hover:shadow-2xl hover:border-accent-100 transition-all duration-500 flex items-center justify-center transform hover:-translate-y-2 overflow-hidden"
+               v-motion="{ initial: { opacity: 0, scale: 0.9, y: 30 }, visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 600, delay: i * 50 + 200 } } }">
+            
+            <!-- Colored Logos (permanently visible) -->
+            <div class="relative z-10 w-full h-full flex items-center justify-center transition-all duration-700">
+               <img :src="`/logos/logo ${i}.png`" :alt="`Partner Logo ${i}`" class="max-w-full max-h-full object-contain filter drop-shadow-sm group-hover:drop-shadow-lg transition-all" />
+            </div>
+
+            <!-- Subtle background detail on hover -->
+            <div class="absolute inset-0 bg-gradient-to-br from-accent-50/0 to-accent-50/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div class="absolute -right-4 -bottom-4 w-24 h-24 bg-accent-500/5 rounded-full blur-2xl group-hover:bg-accent-500/10 transition-all duration-500"></div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- FEATURES OVERVIEW (REFINED) -->
@@ -423,3 +466,9 @@
 
   </div>
 </template>
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
